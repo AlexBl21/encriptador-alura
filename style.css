@@ -176,4 +176,49 @@ footer{
     background-color: #2c0e7c;
 }
 
+@media only screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .s1 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .s2 {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .input-mensaje {
+        margin: 20px 10px;
+        width: 80%;
+    }
+
+    .botones {
+        width: 80%;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        gap: 10px; 
+        margin: 0 auto;
+    }
+
+    .advertencia{
+        width: 80%;
+        margin: 20px 10px;
+    }
+
+    .btn-encriptar,
+    .btn-desencriptar {
+        width: 100%;
+        box-sizing: border-box; 
+    }
+
+    .m-incriptado {
+        width: 80%;
+    }
+}
 
